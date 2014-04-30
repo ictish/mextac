@@ -1,0 +1,485 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin-bottom:0px;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:0px;
+}
+
+/* ----------------------------------------------LOGO CSS------------------------------------------- */
+
+#logoID{
+	background:#B40313;
+	color:#FFFFFF;
+	height:70px;
+	border-bottom:1px #E5E5E5 solid;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:xx-large;
+	font-weight:bold;
+	padding:20px 0px 0px 20px;
+}
+
+/* ----------------------------------------------SPACER CSS------------------------------------------- */
+
+#spacerID{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/* ----------------------------------------------MESSAGE CSS------------------------------------------- */
+
+#msgID{
+	background:#FFC;
+	font-weight:bold;
+	text-align:center;
+	font-size:12px;
+	border:1px #69C solid;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:10px 10px 10px 10px;
+}
+
+/* ----------------------------------------------LOGIN FORM CSS------------------------------------------- */
+
+#loginFormID{
+	background:#F5F5F5;
+	width:300px;
+	height:250px;
+	position:relative;
+    left:36%;
+	border:1px #E5E5E5 solid;
+}
+
+/* ----------------------------------------------LOGIN EMAIL CSS------------------------------------------- */
+
+#loginlabelEmailID{
+	position:absolute;
+	top: 20px;
+	width:36px;
+	left: 90px;
+	padding:5px 5px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:smaller;
+	color:#B40313;
+	font-weight:bold;
+}
+
+#loginemailID{
+	position:absolute;
+	top: 53px;
+	border:2px #B40313 solid;
+	width:160px;
+	left: 89px;
+	padding:5px 5px 5px 5px;
+}
+
+/* ----------------------------------------------LOGIN PASSWORD CSS------------------------------------------- */
+
+#loginlabelPassID{
+	position:absolute;
+	left: 90px;
+	top: 86px;
+	width: 60px;
+	padding:5px 5px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:smaller;
+	color:#B40313;
+	font-weight:bold;
+}
+
+
+#loginpasswordID{
+	position:absolute;
+	border:2px #B40313 solid;
+	left: 89px;
+	top: 117px;
+	width: 160px;
+	padding:5px 5px 5px 5px;
+}
+
+/* ----------------------------------------------LOGIN LOGIN BUTTON CSS------------------------------------------- */
+
+#loginloginbuttonID a{
+	position:absolute;
+	left: 105px;
+	top: 160px;
+	width: 50px;
+	height: 20px;
+	text-align:center;
+	font:11px arial;
+	color: #FFFFFF;
+	font-weight:bold;
+	padding-top:8px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-right:5px;
+	text-decoration: none;
+	background-color:#B40313;
+}
+#loginloginbuttonID a:hover{
+	color:#ffffff;
+	background:#DE909D; 
+}
+
+/* ----------------------------------------------LOGIN REGISTER BUTTON CSS------------------------------------------- */
+
+#loginregisterbuttonID a{
+	position:absolute;
+	left: 177px;
+	top: 160px;
+	width: 50px;
+	height: 20px;
+	text-align:center;
+	font:11px arial;
+	color: #FFFFFF;
+	font-weight:bold;
+	padding-top:8px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-right:5px;
+	text-decoration: none;
+	background-color:#B40313;
+}
+#loginregisterbuttonID a:hover{
+	color:#ffffff;
+	background:#DE909D; 
+}
+
+/* ----------------------------------------------LOGIN FORGOT PASSWORD CSS------------------------------------------- */
+
+#loginforgotpassID a{
+	position:absolute;
+	left: 119px;
+	top: 198px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:smaller;
+	color:#B40313;
+}
+#loginforgotpassID a:hover{
+	text-decoration:none;
+}
+
+
+/* ----------------------------------------------REGISTER FORM CSS------------------------------------------- */
+
+#registerFormID{
+	background:#F5F5F5;
+	width:300px;
+	height:300px;
+	position:relative;
+    left:36%;
+	border:1px #E5E5E5 solid;
+}
+
+/* ----------------------------------------------REGISTER USERNAME CSS------------------------------------------- */
+
+#usernameID{
+	position:absolute;
+	top: 46px;
+	border:2px #B40313 solid;
+	width:160px;
+	left: 89px;
+	padding:5px 5px 5px 5px;
+}
+
+#labelUserID{
+	position:absolute;
+	top: 20px;
+	width:36px;
+	left: 90px;
+	padding:5px 5px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:smaller;
+	color:#B40313;
+	font-weight:bold;
+}
+
+/* ----------------------------------------------REGISTER EMAIL CSS------------------------------------------- */
+
+#emailID{
+	position:absolute;
+	top: 111px;
+	border:2px #B40313 solid;
+	width:160px;
+	left: 89px;
+	padding:5px 5px 5px 5px;
+}
+
+#labelEmailID{
+	position:absolute;
+	top: 78px;
+	width:36px;
+	left: 90px;
+	padding:5px 5px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:smaller;
+	color:#B40313;
+	font-weight:bold;
+}
+
+/* ----------------------------------------------REGISTER PASSWORD CSS------------------------------------------- */
+
+#passwordID{
+	position:absolute;
+	border:2px #B40313 solid;
+	left: 89px;
+	top: 175px;
+	width: 160px;
+	padding:5px 5px 5px 5px;
+}
+
+#labelPassID{
+	position:absolute;
+	left: 90px;
+	top: 144px;
+	width: 60px;
+	padding:5px 5px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:smaller;
+	color:#B40313;
+	font-weight:bold;
+}
+
+/* ----------------------------------------------REGISTER LOGIN BUTTON CSS------------------------------------------- */
+
+#loginbuttonID a{
+	position:absolute;
+	left: 105px;
+	top: 218px;
+	width: 50px;
+	height: 20px;
+	text-align:center;
+	font:11px arial;
+	color: #FFFFFF;
+	font-weight:bold;
+	padding-top:8px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-right:5px;
+	text-decoration: none;
+	background-color:#B40313;
+}
+#loginbuttonID a:hover{
+	color:#ffffff;
+	background:#DE909D; 
+}
+
+/* ----------------------------------------------REGISTER REGISTER BUTTON CSS------------------------------------------- */
+
+#registerbuttonID a{
+	position:absolute;
+	left: 177px;
+	top: 217px;
+	width: 50px;
+	height: 20px;
+	text-align:center;
+	font:11px arial;
+	color: #FFFFFF;
+	font-weight:bold;
+	padding-top:8px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-right:5px;
+	text-decoration: none;
+	background-color:#B40313;
+}
+#registerbuttonID a:hover{
+	color:#ffffff;
+	background:#DE909D; 
+}
+
+/* ----------------------------------------------REGISTER FORGOT PASSWORD CSS------------------------------------------- */
+
+#forgotpassID a{
+	position:absolute;
+	left: 119px;
+	top: 256px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:smaller;
+	color:#B40313;
+}
+#forgotpassID a:hover{
+	text-decoration:none;
+}
+
+/* ----------------------------------------------ROOM CSS------------------------------------------- */
+
+#roomMenuID{
+	color:#FFFFFF;
+	text-align:right;
+	font:11px arial;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration: none;
+	background-color:#B40313;
+	text-transform:capitalize;
+}
+
+#footerID{
+	color:#FFFFFF;
+	text-align:center;
+	font:11px arial;
+	font-weight:bold;
+	height:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration: none;
+	background-color:#B40313;
+	text-transform:capitalize;
+}
+
+#roomMenuID a{
+	color:#FFFFFF;
+	text-align:right;
+	font:11px arial;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:50px;
+	text-decoration: none;
+	background-color:#B40313;
+	text-transform:capitalize;
+}
+
+#roomBodyID{
+	background:#F5F5F5;
+	width:100%;
+	height:100%;
+	border:1px #E5E5E5 solid;
+}
+
+#statusInputID{
+	width:50%;
+	height:100px;
+	position:relative;
+	left:24.5%;
+	border:0px #E5E5E5 solid;
+}
+
+#postButtonID a{
+	position:relative;
+	left:46%;
+	width: 100px;
+	height: 20px;
+	text-align:center;
+	font:11px arial;
+	color: #FFFFFF;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:25px;
+	padding-right:25px;
+	text-decoration: none;
+	background-color:#B40313;
+}
+
+#postButtonID a:hover{
+	color:#ffffff;
+	background:#DE909D; 
+}
+
+
+#statusDisplayID{
+	background:#FFFFFF;
+	width:53.4%;
+	position:relative;
+	left:22%;
+	border:1px #E5E5E5 solid;
+	padding-bottom:0px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:0px;
+}
+
+.statusDisplayClass{
+	background:#FFFFFF;
+	width:53.4%;
+	position:relative;
+	left:22%;
+	border:1px #E5E5E5 solid;
+	padding-bottom:0px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:0px;
+}
+
+#statusByAjaxID{
+	
+}
+
+#morePostID a{
+	position:relative;
+	left:45%;
+	width: 100px;
+	height: 20px;
+	text-align:center;
+	font:11px arial;
+	color: #FFFFFF;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:25px;
+	padding-right:25px;
+	text-decoration: none;
+	background-color:#B40313;
+}
+
+#morePostID a:hover{
+	color:#ffffff;
+	background:#DE909D; 
+}
+
+p.usernameClass{
+	text-transform:capitalize;
+	font-weight:bold;
+}
+
+h7.dateClass{
+	text-align:right;
+	float:right;
+	font-weight:normal;
+	color:#999;
+	font-style:italic;
+	font-size:small;
+}
+
+
+/*---------------------------------------------------------------------GLOWING TEXTAREA-----------------------------------------------------------*/
+
+textarea#textAreaID{
+	resize:none;
+	color:#666;
+	font-size:14px;
+	-moz-border-radius: 8px; -webkit-border-radius: 8px;
+	margin:5px 0px 10px 0px;
+	padding:10px;
+	height:70px;
+	width:450px;
+	border:#999 1px solid;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+} 
+
+textarea#styleid:focus{
+	color:#000;
+	outline:none;
+	border:#35a5e5 1px solid;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
